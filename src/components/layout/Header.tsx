@@ -85,7 +85,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             {/* Logo */}
             <div className="flex-1 lg:flex-initial flex items-center justify-center lg:justify-start">
               <Link href="/" className="group flex flex-col items-center lg:items-start">
-                <span className={`font-serif text-2xl sm:text-3xl tracking-[0.2em] uppercase font-light transition-colors ${logoColorClass}`}>
+                <span className={`font-serif text-lg sm:text-xl tracking-[0.2em] uppercase font-light transition-colors ${logoColorClass}`}>
                   Homes By Meera
                 </span>
                 <span className={`text-[9px] uppercase tracking-[0.35em] mt-0.5 transition-colors ${isHomePage && !isScrolled ? 'text-cream/80' : 'text-taupe'}`}>
